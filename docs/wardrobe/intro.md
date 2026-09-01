@@ -4,7 +4,7 @@
 
 ![sunrise](https://wardrobe.timeless-twilight.com/app/background/sunrise-720.png)
 
-以及，~~你在期待什么，暮光只有西装形象，ta的衣橱内自然只有一堆西装（~~
+以及，~~你在期待什么，暮光只有西装形象，他的衣橱内自然只有一堆西装（~~
 
 ::: info
 如果你使用[Little Skin](https://littleskin.cn)，请移步至[该文档](https://manual.littlesk.in/)，如果你想了解一些Blessing Skin的高级功能，请移步至[该文档](https://blessing.netlify.app/)。
