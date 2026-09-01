@@ -1,6 +1,6 @@
 # Twilight's Wardrobe 文档
 
-欢迎你阅读[暮光的衣橱](https://wardrobe.timeless-twilight.com)文档，该文档致力于教你熟悉[Blessing Skin]皮肤站的使用，以及一些我们的特有功能。
+欢迎你阅读[暮光的衣橱](https://wardrobe.timeless-twilight.com)文档，该文档致力于教你熟悉[Blessing Skin](https://blessing.netlify.app/)皮肤站的使用，以及一些我们的特有功能。
 
 ![sunrise](https://wardrobe.timeless-twilight.com/app/background/sunrise-720.png)
 
