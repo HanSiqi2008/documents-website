@@ -31,6 +31,10 @@ export default defineConfig({
               { text: '兼容性', link: '/ysm/compat' },
               { text: 'FreesiaII', link: '/ysm/freesiaii' },
             ] },
+          { text: '暮光的衣橱', link: '/wardrobe/intro',
+            items: [
+              { text: '关于衣橱', link: '/wardrobe/about-wardrobe' },
+            ] },
         ]
       }
     ],
