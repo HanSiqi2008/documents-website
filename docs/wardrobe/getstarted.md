@@ -90,6 +90,14 @@
 
 有些猫猫可能认为，欸我绑定别的账号是不是方便点，所以这文档我也写上（
 
+目前我们支持或者计划支持以下平台：
+
+- [x] [Little Skin](https://littlesk.in) (支持还行，但是需要手动绑定账号)
+- [ ] [Github](https://github.com) (报错"获取访问令牌失败")
+- [ ] [Bloret通行证](https://passport.bloret.net) (实现不标准以至于除非未来专门适配否则无希望，~~以及我们一般不称其为OAuth~~)
+- [ ] [MSCPO开放平台](https://open.mscpo.com) (目前还没问到接口文档)
+- [x] [MCJPG社区通行证](https://mcjpg.org) (目前支持最好的，不过账号注册有门槛)
+
 ### 在"OAuth绑定管理"绑定账号
 
 点击"OAuth绑定"。
