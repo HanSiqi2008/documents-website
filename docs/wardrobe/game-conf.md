@@ -81,3 +81,5 @@
 ![put-extralist](https://img.bloret.net/img/1788327877733/7c5ba6e1a6812318fbb6347d5e18b139)
 
 随后开启游戏，你就能在mc中看见自己的皮肤啦！
+
+![game-with-csl](https://img.bloret.net/img/1788328228463/f696f9464dc74ebcd17bd09fc25e4988)
