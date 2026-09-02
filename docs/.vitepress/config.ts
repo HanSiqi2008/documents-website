@@ -34,6 +34,8 @@ export default defineConfig({
           { text: '暮光的衣橱', link: '/wardrobe/intro',
             items: [
               { text: '关于衣橱', link: '/wardrobe/about-wardrobe' },
+              { text: '旅途的开始', link: '/wardrobe/getstarted' },
+              { text: '游戏侧配置', link: '/wardrobe/game-conf' },
             ] },
         ]
       }
