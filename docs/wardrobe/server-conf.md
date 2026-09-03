@@ -15,3 +15,33 @@
 当然，项目介绍也说明了适配其他皮肤站的方法，你可以在不违反LittleSkinPlugin原许可协议的情况下自行尝试修改用于其他皮肤站。
 
 下载来的jar直接扔入Paper服务端或者Velocity服务端的`plugins`文件夹即可。灰常滴简单～
+
+## 使用外置验证
+
+适合部分既要又要的人类，虽然但是，我喜欢awa
+
+### Authlib-Injector
+
+这个软件不作为插件或者模组使用。需要通过`-javaagent:authlib-injector-xxx.jar=https://wardrobe.timeless-twilight.com/api/yggdrasil`参数加载。
+
+举个例子，我使用SpongeVanilla开服，服务端文件名`spongevanilla-26.2-20.0.0-RC2703-universal.jar`, 那我们就得从[这里](https://ghproxy.vip/github.com/yushijinhun/authlib-injector/releases/download/v1.2.8/authlib-injector-1.2.8.jar)下载Authlib-Injector 1.2.8, 并放在与服务端相同的目录。
+
+随后，假设你原先的启动命令长这样：
+
+`java -Xmx2g -jar spongevanilla-26.2-20.0.0-RC2703-universal.jar`
+
+那么你的启动命令应该改成这样:
+
+`java -javaagent:authlib-injector-1.2.8.jar=https://wardrobe.timeless-twilight.com/api/yggdrasil -Xmx2g -jar spongevanilla-26.2-20.0.0-RC2703-universal.jar`
+
+在此之后，你还需要将你的服务器的`server.properties`内的`online-mode=false`调整为`online-mode=true`，建议设置`enforce-secure-profile`为`true`。
+
+不出意外，你的服务器就配置好了。
+
+::: tips
+对于BungeeCord或者Velocity(None/Legacy Forward), 你需要给所有服务器都加上`-javaagent:authlib-injector-1.2.8.jar=https://wardrobe.timeless-twilight.com/api/yggdrasil`, 并且确认BungeeCord/Velocity开启了正版验证，而所有下游服务端关闭了正版验证并关闭了公钥检查。
+:::
+
+::: tips
+对于Velocity(Modern Forward), 你需要给所有服务器都加上`-javaagent:authlib-injector-1.2.8.jar=https://wardrobe.timeless-twilight.com/api/yggdrasil`, 并且确认Velocity开启了正版验证，而所有下游服务端关闭了`server.properties`的正版验证并关闭了公钥检查。以及在`config/paper-global.yaml`打开`online-mode`。
+:::
